@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-import Logo from "../public/assets/Moralis_logo.png";
+import Logo from "../public/assets/surge-black.png";
 
 export default function Header() {
   return (
