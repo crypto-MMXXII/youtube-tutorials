@@ -10,7 +10,7 @@ export default function Header() {
 
   const handleSubmit = async () => {
     address = document.querySelector("#walletAddress").value;
-    const chain = EvmChain.ETHEREUM;
+    const chain = EvmChain.BSC;
 
     await Moralis.start({
       apiKey: process.env.NEXT_PUBLIC_MORALIS_API_KEY,
@@ -36,7 +36,7 @@ export default function Header() {
         action="#"
       >
         <label className={styles.label} htmlFor="walletAddress">
-          Add ERC20 Wallet Address
+          Add your Wallet Address
         </label>
         <input
           className={styles.walletAddress}

@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <section className={styles.header}>
       <Image src={Logo} alt="Logo image" width="102" height="82" />
-      <h1 className={styles.title}>Get Any Wallet's Token Balance</h1>
+      <h3 className={styles.title}>Check your Wallet's SRG / SRG20 Token Balance</h3>
     </section>
   );
 }
